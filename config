@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "dropbox"]
+	url = file:///home/ubuntu/Dropbox/repos/yokagawa.git
+	fetch = +refs/heads/*:refs/remotes/dropbox/*
+[remote "origin"]
+	url = https://github.com/J459396689/yokagawa.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
